@@ -1,0 +1,12 @@
+D:\TourismProject\TourismApp\Backend\API\ChitwanTourism\MapService.Domain\bin\Debug\net8.0\MapService.Domain.deps.json
+D:\TourismProject\TourismApp\Backend\API\ChitwanTourism\MapService.Domain\bin\Debug\net8.0\MapService.Domain.dll
+D:\TourismProject\TourismApp\Backend\API\ChitwanTourism\MapService.Domain\bin\Debug\net8.0\MapService.Domain.pdb
+D:\TourismProject\TourismApp\Backend\API\ChitwanTourism\MapService.Domain\obj\Debug\net8.0\MapService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\TourismProject\TourismApp\Backend\API\ChitwanTourism\MapService.Domain\obj\Debug\net8.0\MapService.Domain.AssemblyInfoInputs.cache
+D:\TourismProject\TourismApp\Backend\API\ChitwanTourism\MapService.Domain\obj\Debug\net8.0\MapService.Domain.AssemblyInfo.cs
+D:\TourismProject\TourismApp\Backend\API\ChitwanTourism\MapService.Domain\obj\Debug\net8.0\MapService.Domain.csproj.CoreCompileInputs.cache
+D:\TourismProject\TourismApp\Backend\API\ChitwanTourism\MapService.Domain\obj\Debug\net8.0\MapService.Domain.sourcelink.json
+D:\TourismProject\TourismApp\Backend\API\ChitwanTourism\MapService.Domain\obj\Debug\net8.0\MapService.Domain.dll
+D:\TourismProject\TourismApp\Backend\API\ChitwanTourism\MapService.Domain\obj\Debug\net8.0\refint\MapService.Domain.dll
+D:\TourismProject\TourismApp\Backend\API\ChitwanTourism\MapService.Domain\obj\Debug\net8.0\MapService.Domain.pdb
+D:\TourismProject\TourismApp\Backend\API\ChitwanTourism\MapService.Domain\obj\Debug\net8.0\ref\MapService.Domain.dll

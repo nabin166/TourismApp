@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "O7bn1Fiz2WGJEqB22dDa/wr1FyMWcIIbn4ygzHTH0JA=",
+  "Source": "MapService.API",
+  "BasePath": "_content/MapService.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
