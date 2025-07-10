@@ -4,6 +4,71 @@
     "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.API\\MapService.API.csproj": {}
   },
   "projects": {
+    "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\CommonService\\CommonService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\CommonService\\CommonService.csproj",
+        "projectName": "CommonService",
+        "projectPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\CommonService\\CommonService.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\CommonService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.API\\MapService.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,6 +97,12 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\CommonService\\CommonService.csproj": {
+                "projectPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\CommonService\\CommonService.csproj"
+              },
+              "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.DTO\\MapService.DTO.csproj": {
+                "projectPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.DTO\\MapService.DTO.csproj"
+              },
               "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Service\\MapService.Service.csproj": {
                 "projectPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Service\\MapService.Service.csproj"
               }
@@ -147,6 +218,71 @@
         }
       }
     },
+    "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.DTO\\MapService.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.DTO\\MapService.DTO.csproj",
+        "projectName": "MapService.DTO",
+        "projectPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.DTO\\MapService.DTO.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Repository\\MapService.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -175,6 +311,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\CommonService\\CommonService.csproj": {
+                "projectPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\CommonService\\CommonService.csproj"
+              },
               "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Domain\\MapService.Domain.csproj": {
                 "projectPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Domain\\MapService.Domain.csproj"
               }
@@ -244,6 +383,12 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\CommonService\\CommonService.csproj": {
+                "projectPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\CommonService\\CommonService.csproj"
+              },
+              "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.DTO\\MapService.DTO.csproj": {
+                "projectPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.DTO\\MapService.DTO.csproj"
+              },
               "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Repository\\MapService.Repository.csproj": {
                 "projectPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Repository\\MapService.Repository.csproj"
               }

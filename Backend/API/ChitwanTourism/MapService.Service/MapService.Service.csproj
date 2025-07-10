@@ -7,12 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CommonService\CommonService.csproj" />
+    <ProjectReference Include="..\MapService.DTO\MapService.DTO.csproj" />
     <ProjectReference Include="..\MapService.Repository\MapService.Repository.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="DependencyConfiguration\" />
-    <Folder Include="IServices\" />
   </ItemGroup>
 
 </Project>

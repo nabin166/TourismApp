@@ -3,40 +3,64 @@
   "WorkspaceRootPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA7A143F-9C53-4C9E-AC9C-3002E6AEC687}|MapService.API\\MapService.API.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AA7A143F-9C53-4C9E-AC9C-3002E6AEC687}|MapService.API\\MapService.API.csproj|solutionrelative:mapservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D713168-2819-4766-BA15-5A12CBFB151E}|MapService.Service\\MapService.Service.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.service\\mapservice.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1D713168-2819-4766-BA15-5A12CBFB151E}|MapService.Service\\MapService.Service.csproj|solutionrelative:mapservice.service\\mapservice.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B2C8B8-5C0E-4C8D-857D-B387978B13DB}|MapService.Domain\\MapService.Domain.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.domain\\mapservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{24B2C8B8-5C0E-4C8D-857D-B387978B13DB}|MapService.Domain\\MapService.Domain.csproj|solutionrelative:mapservice.domain\\mapservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5EAEF8A9-A3AF-40DD-93E9-9047319B63D1}|MapService.Repository\\MapService.Repository.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.repository\\mapservice.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5EAEF8A9-A3AF-40DD-93E9-9047319B63D1}|MapService.Repository\\MapService.Repository.csproj|solutionrelative:mapservice.repository\\mapservice.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7A143F-9C53-4C9E-AC9C-3002E6AEC687}|MapService.API\\MapService.API.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7A143F-9C53-4C9E-AC9C-3002E6AEC687}|MapService.API\\MapService.API.csproj|solutionrelative:mapservice.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EAEF8A9-A3AF-40DD-93E9-9047319B63D1}|MapService.Repository\\MapService.Repository.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.repository\\irepositories\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EAEF8A9-A3AF-40DD-93E9-9047319B63D1}|MapService.Repository\\MapService.Repository.csproj|solutionrelative:mapservice.repository\\irepositories\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA7A143F-9C53-4C9E-AC9C-3002E6AEC687}|MapService.API\\MapService.API.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.api\\mapservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AA7A143F-9C53-4C9E-AC9C-3002E6AEC687}|MapService.API\\MapService.API.csproj|solutionrelative:mapservice.api\\mapservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF4C8271-FFCD-4E52-B9FD-CAF78656C928}|MapService.DTO\\MapService.DTO.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.dto\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF4C8271-FFCD-4E52-B9FD-CAF78656C928}|MapService.DTO\\MapService.DTO.csproj|solutionrelative:mapservice.dto\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA7A143F-9C53-4C9E-AC9C-3002E6AEC687}|MapService.API\\MapService.API.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7A143F-9C53-4C9E-AC9C-3002E6AEC687}|MapService.API\\MapService.API.csproj|solutionrelative:mapservice.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EAEF8A9-A3AF-40DD-93E9-9047319B63D1}|MapService.Repository\\MapService.Repository.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EAEF8A9-A3AF-40DD-93E9-9047319B63D1}|MapService.Repository\\MapService.Repository.csproj|solutionrelative:mapservice.repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA7A143F-9C53-4C9E-AC9C-3002E6AEC687}|MapService.API\\MapService.API.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7A143F-9C53-4C9E-AC9C-3002E6AEC687}|MapService.API\\MapService.API.csproj|solutionrelative:mapservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D713168-2819-4766-BA15-5A12CBFB151E}|MapService.Service\\MapService.Service.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D713168-2819-4766-BA15-5A12CBFB151E}|MapService.Service\\MapService.Service.csproj|solutionrelative:mapservice.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA7A143F-9C53-4C9E-AC9C-3002E6AEC687}|MapService.API\\MapService.API.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AA7A143F-9C53-4C9E-AC9C-3002E6AEC687}|MapService.API\\MapService.API.csproj|solutionrelative:mapservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24B2C8B8-5C0E-4C8D-857D-B387978B13DB}|MapService.Domain\\MapService.Domain.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B2C8B8-5C0E-4C8D-857D-B387978B13DB}|MapService.Domain\\MapService.Domain.csproj|solutionrelative:mapservice.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D713168-2819-4766-BA15-5A12CBFB151E}|MapService.Service\\MapService.Service.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D713168-2819-4766-BA15-5A12CBFB151E}|MapService.Service\\MapService.Service.csproj|solutionrelative:mapservice.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D713168-2819-4766-BA15-5A12CBFB151E}|MapService.Service\\MapService.Service.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.service\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D713168-2819-4766-BA15-5A12CBFB151E}|MapService.Service\\MapService.Service.csproj|solutionrelative:mapservice.service\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EAEF8A9-A3AF-40DD-93E9-9047319B63D1}|MapService.Repository\\MapService.Repository.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.repository\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EAEF8A9-A3AF-40DD-93E9-9047319B63D1}|MapService.Repository\\MapService.Repository.csproj|solutionrelative:mapservice.repository\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D713168-2819-4766-BA15-5A12CBFB151E}|MapService.Service\\MapService.Service.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.service\\mapservice.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1D713168-2819-4766-BA15-5A12CBFB151E}|MapService.Service\\MapService.Service.csproj|solutionrelative:mapservice.service\\mapservice.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB68FD7-29DD-459F-97B9-A6A0D40656F7}|CommonService\\CommonService.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\commonservice\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB68FD7-29DD-459F-97B9-A6A0D40656F7}|CommonService\\CommonService.csproj|solutionrelative:commonservice\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF4C8271-FFCD-4E52-B9FD-CAF78656C928}|MapService.DTO\\MapService.DTO.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF4C8271-FFCD-4E52-B9FD-CAF78656C928}|MapService.DTO\\MapService.DTO.csproj|solutionrelative:mapservice.dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B2C8B8-5C0E-4C8D-857D-B387978B13DB}|MapService.Domain\\MapService.Domain.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B2C8B8-5C0E-4C8D-857D-B387978B13DB}|MapService.Domain\\MapService.Domain.csproj|solutionrelative:mapservice.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B2C8B8-5C0E-4C8D-857D-B387978B13DB}|MapService.Domain\\MapService.Domain.csproj|d:\\tourismproject\\tourismapp\\backend\\api\\chitwantourism\\mapservice.domain\\mapservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{24B2C8B8-5C0E-4C8D-857D-B387978B13DB}|MapService.Domain\\MapService.Domain.csproj|solutionrelative:mapservice.domain\\mapservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,60 +70,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.API\\appsettings.json",
-              "RelativeDocumentMoniker": "MapService.API\\appsettings.json",
-              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.API\\appsettings.json",
-              "RelativeToolTip": "MapService.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-09T17:20:09.001Z",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "MapService.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "MapService.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T16:54:46.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserRepo.cs",
+              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Repository\\IRepositories\\IUserRepo.cs",
+              "RelativeDocumentMoniker": "MapService.Repository\\IRepositories\\IUserRepo.cs",
+              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Repository\\IRepositories\\IUserRepo.cs",
+              "RelativeToolTip": "MapService.Repository\\IRepositories\\IUserRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T16:16:16.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MapService.Service.csproj",
-              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Service\\MapService.Service.csproj",
-              "RelativeDocumentMoniker": "MapService.Service\\MapService.Service.csproj",
-              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Service\\MapService.Service.csproj",
-              "RelativeToolTip": "MapService.Service\\MapService.Service.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-09T16:51:32.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MapService.Domain.csproj",
-              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Domain\\MapService.Domain.csproj",
-              "RelativeDocumentMoniker": "MapService.Domain\\MapService.Domain.csproj",
-              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Domain\\MapService.Domain.csproj",
-              "RelativeToolTip": "MapService.Domain\\MapService.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-09T17:16:50.778Z"
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MapService.API\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MapService.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T16:24:13.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MapService.Repository.csproj",
-              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Repository\\MapService.Repository.csproj",
-              "RelativeDocumentMoniker": "MapService.Repository\\MapService.Repository.csproj",
-              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Repository\\MapService.Repository.csproj",
-              "RelativeToolTip": "MapService.Repository\\MapService.Repository.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-09T16:50:28.694Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "MapService.API.csproj",
               "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.API\\MapService.API.csproj",
               "RelativeDocumentMoniker": "MapService.API\\MapService.API.csproj",
@@ -107,55 +121,151 @@
               "RelativeToolTip": "MapService.API\\MapService.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-09T16:52:04.674Z"
+              "WhenOpened": "2025-07-09T16:52:04.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MapService.Repository.csproj",
+              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Repository\\MapService.Repository.csproj",
+              "RelativeDocumentMoniker": "MapService.Repository\\MapService.Repository.csproj",
+              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Repository\\MapService.Repository.csproj",
+              "RelativeToolTip": "MapService.Repository\\MapService.Repository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-09T16:50:28.694Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.DTO\\Class1.cs",
-              "RelativeDocumentMoniker": "MapService.DTO\\Class1.cs",
-              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.DTO\\Class1.cs",
-              "RelativeToolTip": "MapService.DTO\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.API\\Program.cs",
+              "RelativeDocumentMoniker": "MapService.API\\Program.cs",
+              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.API\\Program.cs",
+              "RelativeToolTip": "MapService.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T16:49:50.842Z"
+              "WhenOpened": "2025-07-10T15:50:12.688Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Repository\\Class1.cs",
-              "RelativeDocumentMoniker": "MapService.Repository\\Class1.cs",
-              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Repository\\Class1.cs",
-              "RelativeToolTip": "MapService.Repository\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T16:49:23.937Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.API\\appsettings.json",
+              "RelativeDocumentMoniker": "MapService.API\\appsettings.json",
+              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.API\\appsettings.json",
+              "RelativeToolTip": "MapService.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-09T17:20:09.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Service\\Class1.cs",
-              "RelativeDocumentMoniker": "MapService.Service\\Class1.cs",
-              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Service\\Class1.cs",
-              "RelativeToolTip": "MapService.Service\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Service\\UserService.cs",
+              "RelativeDocumentMoniker": "MapService.Service\\UserService.cs",
+              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Service\\UserService.cs",
+              "RelativeToolTip": "MapService.Service\\UserService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T16:48:19.25Z"
+              "WhenOpened": "2025-07-10T16:20:36.963Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "MapService.Domain\\Class1.cs",
-              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Domain\\Class1.cs",
-              "RelativeToolTip": "MapService.Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Service\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "MapService.Service\\IServices\\IUserService.cs",
+              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Service\\IServices\\IUserService.cs",
+              "RelativeToolTip": "MapService.Service\\IServices\\IUserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T16:47:53.258Z"
+              "WhenOpened": "2025-07-10T16:17:13.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Repository\\UserRepo.cs",
+              "RelativeDocumentMoniker": "MapService.Repository\\UserRepo.cs",
+              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Repository\\UserRepo.cs",
+              "RelativeToolTip": "MapService.Repository\\UserRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T16:23:22.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MapService.Service.csproj",
+              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Service\\MapService.Service.csproj",
+              "RelativeDocumentMoniker": "MapService.Service\\MapService.Service.csproj",
+              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Service\\MapService.Service.csproj",
+              "RelativeToolTip": "MapService.Service\\MapService.Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-09T16:51:32.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\CommonService\\Class1.cs",
+              "RelativeDocumentMoniker": "CommonService\\Class1.cs",
+              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\CommonService\\Class1.cs",
+              "RelativeToolTip": "CommonService\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T16:49:30.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "MapService.DTO\\UserDto.cs",
+              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.DTO\\UserDto.cs",
+              "RelativeToolTip": "MapService.DTO\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T16:13:18.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Domain\\User.cs",
+              "RelativeDocumentMoniker": "MapService.Domain\\User.cs",
+              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Domain\\User.cs",
+              "RelativeToolTip": "MapService.Domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T16:12:26.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MapService.Domain.csproj",
+              "DocumentMoniker": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Domain\\MapService.Domain.csproj",
+              "RelativeDocumentMoniker": "MapService.Domain\\MapService.Domain.csproj",
+              "ToolTip": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Domain\\MapService.Domain.csproj",
+              "RelativeToolTip": "MapService.Domain\\MapService.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-09T17:16:50.778Z",
+              "EditorCaption": ""
             }
           ]
         }

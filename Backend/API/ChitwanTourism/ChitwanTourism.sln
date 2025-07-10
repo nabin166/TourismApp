@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapService.Repository", "Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapService.DTO", "MapService.DTO\MapService.DTO.csproj", "{FF4C8271-FFCD-4E52-B9FD-CAF78656C928}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonService", "CommonService\CommonService.csproj", "{7DB68FD7-29DD-459F-97B9-A6A0D40656F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +41,10 @@ Global
 		{FF4C8271-FFCD-4E52-B9FD-CAF78656C928}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF4C8271-FFCD-4E52-B9FD-CAF78656C928}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF4C8271-FFCD-4E52-B9FD-CAF78656C928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DB68FD7-29DD-459F-97B9-A6A0D40656F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB68FD7-29DD-459F-97B9-A6A0D40656F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB68FD7-29DD-459F-97B9-A6A0D40656F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB68FD7-29DD-459F-97B9-A6A0D40656F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

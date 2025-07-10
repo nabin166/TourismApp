@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MapService.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5a169f08bd815423ffe7796caf602f50e731ae4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca93fcc7fe89524604ef3db1ac51cc7b2b9a363a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MapService.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MapService.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

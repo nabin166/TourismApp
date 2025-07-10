@@ -89,6 +89,16 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "CommonService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CommonService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommonService.dll": {}
+        }
+      },
       "MapService.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -99,10 +109,21 @@
           "bin/placeholder/MapService.Domain.dll": {}
         }
       },
+      "MapService.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MapService.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MapService.DTO.dll": {}
+        }
+      },
       "MapService.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommonService": "1.0.0",
           "MapService.Domain": "1.0.0"
         },
         "compile": {
@@ -116,6 +137,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CommonService": "1.0.0",
+          "MapService.DTO": "1.0.0",
           "MapService.Repository": "1.0.0"
         },
         "compile": {
@@ -476,10 +499,20 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "CommonService/1.0.0": {
+      "type": "project",
+      "path": "../CommonService/CommonService.csproj",
+      "msbuildProject": "../CommonService/CommonService.csproj"
+    },
     "MapService.Domain/1.0.0": {
       "type": "project",
       "path": "../MapService.Domain/MapService.Domain.csproj",
       "msbuildProject": "../MapService.Domain/MapService.Domain.csproj"
+    },
+    "MapService.DTO/1.0.0": {
+      "type": "project",
+      "path": "../MapService.DTO/MapService.DTO.csproj",
+      "msbuildProject": "../MapService.DTO/MapService.DTO.csproj"
     },
     "MapService.Repository/1.0.0": {
       "type": "project",
@@ -494,6 +527,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "CommonService >= 1.0.0",
+      "MapService.DTO >= 1.0.0",
       "MapService.Service >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
@@ -530,6 +565,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\CommonService\\CommonService.csproj": {
+              "projectPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\CommonService\\CommonService.csproj"
+            },
+            "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.DTO\\MapService.DTO.csproj": {
+              "projectPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.DTO\\MapService.DTO.csproj"
+            },
             "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Service\\MapService.Service.csproj": {
               "projectPath": "D:\\TourismProject\\TourismApp\\Backend\\API\\ChitwanTourism\\MapService.Service\\MapService.Service.csproj"
             }

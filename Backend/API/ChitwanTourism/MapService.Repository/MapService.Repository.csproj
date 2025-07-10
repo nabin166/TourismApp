@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CommonService\CommonService.csproj" />
     <ProjectReference Include="..\MapService.Domain\MapService.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="IRepositories\" />
   </ItemGroup>
 
 </Project>
