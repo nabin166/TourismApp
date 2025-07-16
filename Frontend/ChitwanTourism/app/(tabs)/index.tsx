@@ -3,7 +3,7 @@ import Homepage from '../Tourism/Homepage';
 
 
 
-export default function HomeScreen() {
+export default function index() {
   return (
     <Homepage></Homepage>
   );

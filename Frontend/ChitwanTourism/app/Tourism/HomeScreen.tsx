@@ -1,19 +1,21 @@
 import { Feather, Ionicons } from '@expo/vector-icons';
 import { NavigationProp, useNavigation } from '@react-navigation/native';
+import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
+
 import {
-    FlatList,
-    Image,
-    ImageBackground,
-    ImageStyle,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TextInput,
-    TextStyle,
-    TouchableOpacity,
-    View,
-    ViewStyle,
+  FlatList,
+  Image,
+  ImageBackground,
+  ImageStyle,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  TextStyle,
+  TouchableOpacity,
+  View,
+  ViewStyle,
 } from 'react-native';
 
 // Define your destination type
@@ -76,7 +78,7 @@ export default function HomeScreen() {
   const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const navigation = useNavigation<NavigationProp<RootStackParamList>>();
-
+  const router = useRouter();
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prev) => (prev + 1) % destinations.length);
@@ -90,11 +92,11 @@ export default function HomeScreen() {
   );
 
   const renderItem = ({ item }: { item: Destination }) => (
-    <TouchableOpacity
-      onPress={() => navigation.navigate('Details', { destinationId: item.id })}
+    <TouchableOpacity 
+      onPress={() => router.push('/Tourism/detailpage')}
       style={styles.card}
     >
-      <Image source={{ uri: item.image }} style={styles.cardImage} />
+      <Image source={{ uri: item.image }} style={styles.cardImage}  />
       <View style={styles.cardContent}>
         <View style={styles.cardHeader}>
           <Text style={styles.cardTitle}>{item.name}</Text>
