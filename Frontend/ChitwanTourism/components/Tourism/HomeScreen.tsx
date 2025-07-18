@@ -2,6 +2,7 @@ import { Feather, Ionicons } from '@expo/vector-icons';
 import { NavigationProp, useNavigation } from '@react-navigation/native';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
+import Detailpage from '../../app/detailpage';
 
 import {
   FlatList,
@@ -93,7 +94,7 @@ export default function HomeScreen() {
 
   const renderItem = ({ item }: { item: Destination }) => (
     <TouchableOpacity 
-      onPress={() => router.push('/Tourism/detailpage')}
+      onPress={() => router.push('/detailpage')}
       style={styles.card}
     >
       <Image source={{ uri: item.image }} style={styles.cardImage}  />

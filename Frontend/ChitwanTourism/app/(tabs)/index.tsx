@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import Homepage from '../Tourism/Homepage';
+import Homepage from '../../components/Tourism/Homepage';
 
 
 

@@ -1,5 +1,5 @@
-import MapScreen from '../Tourism/mapscreen';
 import { StyleSheet } from 'react-native';
+import MapScreen from '../../components/Tourism/mapscreen';
 
 
 export default function HomeScreen() {

@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import HomeScreen from '../Tourism/HomeScreen';
+import HomeScreen from '../../components/Tourism/HomeScreen';
 
 export default function TabTwoScreen() {
   return (
