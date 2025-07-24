@@ -1,3 +1,4 @@
+
 import { StyleSheet } from 'react-native';
 import Homepage from '../../components/Tourism/Homepage';
 
@@ -5,7 +6,7 @@ import Homepage from '../../components/Tourism/Homepage';
 
 export default function index() {
   return (
-    <Homepage></Homepage>
+     <Homepage></Homepage>
   );
 }
 

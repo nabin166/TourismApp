@@ -17,13 +17,38 @@
       const lat = parseFloat('{{lat}}') || 27.7;
       const lng = parseFloat('{{lng}}') || 85.32;
 
-      const map = L.map('map').setView([lat, lng], 15);
+      // Base Layers
+      const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+      });
 
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+      const esriSat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/' +
+        'World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles © Esri'
+      });
+
+      const stamenTerrain = L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg', {
+        attribution: 'Map tiles by Stamen Design, under CC BY 3.0'
+      });
+
+      const map = L.map('map', {
+        center: [lat, lng],
+        zoom: 15,
+        layers: [osm] // default layer
+      });
 
       L.marker([lat, lng]).addTo(map)
-        .bindPopup("You are here!")
+        .bindPopup("You are here bro!")
         .openPopup();
+
+      // Layer control
+      const baseMaps = {
+        "OpenStreetMap": osm,
+        "Esri Satellite": esriSat,
+        "Stamen Terrain": stamenTerrain
+      };
+
+      L.control.layers(baseMaps).addTo(map);
     });
   </script>
 </body>

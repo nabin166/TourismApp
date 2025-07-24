@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 import { WebView } from 'react-native-webview';
 
+
 const { width } = Dimensions.get('window');
 const videoHeight = (width * 9) / 16;
 
@@ -25,7 +26,7 @@ const videoData: VideoItem[] = [
   {
     id: '1',
     title: '🌿 Chitwan National Park - Sauraha',
-    url: 'https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4',
+    url: 'https://archive.org/embed/mmm_20250722',
   },
   {
     id: '2',
