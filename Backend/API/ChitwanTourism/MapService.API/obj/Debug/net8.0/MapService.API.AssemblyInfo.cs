@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MapService.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca93fcc7fe89524604ef3db1ac51cc7b2b9a363a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18fbd2117c9bfbdc644ee87376c5ca0447af6559")]
 [assembly: System.Reflection.AssemblyProductAttribute("MapService.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MapService.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

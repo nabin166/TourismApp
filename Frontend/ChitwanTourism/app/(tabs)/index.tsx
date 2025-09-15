@@ -1,13 +1,38 @@
 
+import LoadingScreen from '@/components/Tourism/LoadingScreen';
+import UserInteractiveScreen from '@/components/Tourism/UserInteractScreen.';
+import React, { useEffect, useState } from 'react';
 import { StyleSheet } from 'react-native';
-import Homepage from '../../components/Tourism/Homepage';
+import { useNavigation } from '@react-navigation/native'; // Assuming you're using React Navigation
 
 
+export default function Index() {
+  const [isLoading, setIsLoading] = useState(true);
+  const navigation = useNavigation();
 
-export default function index() {
-  return (
-     <Homepage></Homepage>
-  );
+  useEffect(() => {
+    // Fake loading (4 seconds)
+    setTimeout(() => setIsLoading(false), 4000);
+  }, []);
+
+  // If it's loading, hide the bottom navigation
+  useEffect(() => {
+    if (isLoading) {
+      navigation.setOptions({
+        tabBarStyle: { display: 'none' }, // Hides the bottom tab bar
+      });
+    } else {
+      navigation.setOptions({
+        tabBarStyle: { display: 'flex' }, // Shows the bottom tab bar again
+      });
+    }
+  }, [isLoading, navigation]);
+
+  if (isLoading) {
+    return <LoadingScreen />;
+  }
+
+  return <UserInteractiveScreen />;
 }
 
 const styles = StyleSheet.create({

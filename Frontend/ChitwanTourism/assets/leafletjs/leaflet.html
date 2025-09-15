@@ -36,8 +36,16 @@
         zoom: 15,
         layers: [osm] // default layer
       });
+      const testdata = '';                                               
+       const geoJsonLayer = L.geoJSON(testdata, {
+      style: {
+        color: 'green',
+        weight: 3,
+        opacity: 0.5
+      }
+    }).addTo(map);
 
-      L.marker([lat, lng]).addTo(map)
+   L.marker([lat, lng]).addTo(map)
         .bindPopup("You are here bro!")
         .openPopup();
 

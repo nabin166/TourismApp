@@ -1,10 +1,10 @@
 import { StyleSheet } from 'react-native';
-
 import HomeScreen from '../../components/Tourism/HomeScreen';
 
 export default function TabTwoScreen() {
   return (
    <HomeScreen></HomeScreen>
+  // <Chatbot></Chatbot>
   );
 }
 

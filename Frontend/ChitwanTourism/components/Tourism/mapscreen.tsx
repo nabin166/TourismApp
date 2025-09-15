@@ -1,8 +1,6 @@
-import { Asset } from 'expo-asset';
-import * as FileSystem from 'expo-file-system';
 import * as Location from 'expo-location';
 import React, { useEffect, useState } from 'react';
-import { ActivityIndicator } from 'react-native';
+import { ActivityIndicator, StyleSheet, View } from 'react-native';
 import { WebView } from 'react-native-webview';
 
 export default function MapScreen() {
@@ -11,29 +9,50 @@ export default function MapScreen() {
   useEffect(() => {
     const loadHtmlWithLocation = async () => {
       try {
-        // Ask for location permission
+        // Request location permission
         const { status } = await Location.requestForegroundPermissionsAsync();
         if (status !== 'granted') {
           console.warn('Location permission not granted');
           return;
         }
 
-        // Get current location
+        // Get user location
         const location = await Location.getCurrentPositionAsync({});
         const { latitude, longitude } = location.coords;
 
-        // Load HTML from asset
-        const asset = Asset.fromModule(require('../../assets/leafletjs/leaflet.html'));
-        await asset.downloadAsync();
-        const html = await FileSystem.readAsStringAsync(asset.localUri || '');
+        // Inline HTML content with Leaflet
+        const html = `
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+            <style>
+              html, body, #map { height: 100%; margin: 0; padding: 0; }
+            </style>
+          </head>
+          <body>
+            <div id="map"></div>
+            <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+            <script>
+              const lat = ${latitude};
+              const lng = ${longitude};
 
-        // Inject coordinates into the HTML
-        const finalHtml = html
-          .replace('{{title}}', 'Leaflet Map')
-          .replace('{{lat}}', latitude.toString())
-          .replace('{{lng}}', longitude.toString());
+              const map = L.map('map').setView([lat, lng], 13);
 
-        setHtmlContent(finalHtml);
+              L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19
+              }).addTo(map);
+
+              // Add a marker at user's location
+              const marker = L.marker([lat, lng]).addTo(map);
+              marker.bindPopup("You are here").openPopup();
+            </script>
+          </body>
+          </html>
+        `;
+
+        setHtmlContent(html);
       } catch (err) {
         console.error('Error loading map:', err);
       }
@@ -42,7 +61,13 @@ export default function MapScreen() {
     loadHtmlWithLocation();
   }, []);
 
-  if (!htmlContent) return <ActivityIndicator size="large" />;
+  if (!htmlContent) {
+    return (
+      <View style={styles.loadingContainer}>
+        <ActivityIndicator size="large" color="#2563eb" />
+      </View>
+    );
+  }
 
   return (
     <WebView
@@ -54,3 +79,7 @@ export default function MapScreen() {
     />
   );
 }
+
+const styles = StyleSheet.create({
+  loadingContainer: { flex: 1, justifyContent: 'center', alignItems: 'center' },
+});

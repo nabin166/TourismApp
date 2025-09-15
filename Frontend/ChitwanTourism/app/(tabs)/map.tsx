@@ -4,8 +4,9 @@ import MapScreen from '../../components/Tourism/mapscreen';
 
 export default function HomeScreen() {
   return (
-    <MapScreen></MapScreen>
+    <MapScreen/>
   );
+  }
   const styles = StyleSheet.create({
     titleContainer: {
       flexDirection: 'row',
@@ -24,6 +25,6 @@ export default function HomeScreen() {
       position: 'absolute',
     },
   });
-}
+
 
 
